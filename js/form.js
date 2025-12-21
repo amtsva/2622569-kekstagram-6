@@ -8,6 +8,7 @@ const SCALE_STEP = 25;
 const SCALE_MIN = 25;
 const SCALE_MAX = 100;
 
+
 /**
  * Инициализация формы загрузки изображения.
  * Название экспорта совпадает с оригинальным API — initForm.

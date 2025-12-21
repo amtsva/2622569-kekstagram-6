@@ -16,7 +16,7 @@ const commentsStatus = fullViewSection.querySelector('.social__comment-count');
 const loadMoreBtn = fullViewSection.querySelector('.comments-loader');
 const closeBtn = fullViewSection.querySelector('.big-picture__cancel');
 
-// Временное хранилище для комментариев
+
 let allComments = [];
 let renderedCount = 0;
 

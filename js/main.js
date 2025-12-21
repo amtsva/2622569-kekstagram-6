@@ -29,9 +29,7 @@ function debounce(fn, delay) {
   };
 }
 
-/**
- * Возвращает случайную порцию фотографий из массива (не мутирует исходный массив)
- */
+
 function pickRandomPhotos(photos) {
   const copy = photos.slice();
   // простой shuffle
