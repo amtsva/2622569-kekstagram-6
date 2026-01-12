@@ -5,7 +5,6 @@ import { handleEscapePress } from './form-utils.js';
  */
 const COMMENTS_BATCH_SIZE = 5;
 
-
 // Основные DOM-элементы для полноэкранного режима
 const fullViewSection = document.querySelector('.big-picture');
 const fullImage = fullViewSection.querySelector('.big-picture__img img');
@@ -63,7 +62,6 @@ function renderNextComments() {
   }
 }
 
-
 /**
  * Открывает модальное окно с полноэкранным просмотром фотографии
  */
@@ -108,7 +106,6 @@ export function showFullView(photoData) {
   closeBtn.addEventListener('click', onCloseButtonClick);
   document.addEventListener('keydown', onDocumentKeydown);
 }
-
 
 /**
  * Закрывает полноэкранное окно
